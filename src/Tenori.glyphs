@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+n
+);
 customParameters = (
 {
 name = "Disable Subroutines";
@@ -533,7 +536,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 350;
+pos = 500;
 },
 {
 over = 16;
@@ -548,7 +551,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -200;
+pos = -150;
 },
 {
 over = -16;
@@ -5430,6 +5433,7 @@ pos = (450,150);
 ref = pixel;
 }
 );
+vertWidth = 0;
 width = 550;
 }
 );
@@ -33016,8 +33020,137 @@ width = 150;
 );
 },
 {
+glyphname = notdef;
+lastChange = "2024-03-11 20:08:07 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (150,0);
+},
+{
+name = ogonek;
+pos = (250,0);
+},
+{
+name = top;
+pos = (50,350);
+},
+{
+name = topleft;
+pos = (0,350);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (150,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (150,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (150,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (150,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,200);
+ref = pixel;
+}
+);
+width = 300;
+}
+);
+},
+{
 glyphname = pixel;
-lastChange = "2023-04-09 02:03:06 +0000";
+lastChange = "2024-03-11 20:12:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -33032,7 +33165,7 @@ nodes = (
 );
 }
 );
-width = 600;
+width = 50;
 }
 );
 }
